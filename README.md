@@ -8,4 +8,4 @@ Upon finishing the Ng build under [Hachy-Web](https://github.com/hachyEgg/hachy-
 1. Go on [Azure Portal](http://portal.azure.com), log in
 2. and Console->Create Web App->create a windowsOS based web app
 3. In the newly created app, click Deployment Options->setup->set up with external repository
-4. Put this git address or the link of your repository into the blank
+4. Put this git address: `https://github.com/hachyEgg/hachy-web-dist.git` or the link of your repository into the repository address blank
