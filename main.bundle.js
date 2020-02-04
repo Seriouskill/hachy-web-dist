@@ -1,6 +1,6 @@
 webpackJsonp([1,5],{
 
-/***/ 1002:
+/***/ 1006:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -39,21 +39,21 @@ AppRoutingModule = __decorate([
     })
 ], AppRoutingModule);
 
-//# sourceMappingURL=C:/Users/eugene/Desktop/hachy/hachy-web/src/app-routing.module.js.map
+//# sourceMappingURL=C:/hachy-web-master/src/app-routing.module.js.map
 
 /***/ }),
 
-/***/ 1003:
+/***/ 1007:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_routing_module__ = __webpack_require__(1002);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_routing_module__ = __webpack_require__(1006);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_component__ = __webpack_require__(664);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_shared_module__ = __webpack_require__(257);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__layout_layout_module__ = __webpack_require__(1008);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__login_login_module__ = __webpack_require__(1011);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__todos_todos_module__ = __webpack_require__(1022);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__layout_layout_module__ = __webpack_require__(1012);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__login_login_module__ = __webpack_require__(1015);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__todos_todos_module__ = __webpack_require__(1026);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -91,25 +91,25 @@ AppModule = __decorate([
     })
 ], AppModule);
 
-//# sourceMappingURL=C:/Users/eugene/Desktop/hachy/hachy-web/src/app.module.js.map
+//# sourceMappingURL=C:/hachy-web-master/src/app.module.js.map
 
 /***/ }),
 
-/***/ 1004:
+/***/ 1008:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__app_component__ = __webpack_require__(664);
 /* unused harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(1003);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(1007);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__app_module__["a"]; });
 
 
-//# sourceMappingURL=C:/Users/eugene/Desktop/hachy/hachy-web/src/index.js.map
+//# sourceMappingURL=C:/hachy-web-master/src/index.js.map
 
 /***/ }),
 
-/***/ 1005:
+/***/ 1009:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -148,11 +148,11 @@ HeaderRoutingModule = __decorate([
     })
 ], HeaderRoutingModule);
 
-//# sourceMappingURL=C:/Users/eugene/Desktop/hachy/hachy-web/src/header-routing.module.js.map
+//# sourceMappingURL=C:/hachy-web-master/src/header-routing.module.js.map
 
 /***/ }),
 
-/***/ 1006:
+/***/ 1010:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -187,25 +187,25 @@ var HeaderComponent = (function () {
 HeaderComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'app-header',
-        template: __webpack_require__(1058),
-        styles: [__webpack_require__(1037)]
+        template: __webpack_require__(1062),
+        styles: [__webpack_require__(1041)]
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_angularfire2__["a" /* AngularFire */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_angularfire2__["a" /* AngularFire */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__angular_router__["b" /* Router */]) === "function" && _b || Object])
 ], HeaderComponent);
 
 var _a, _b;
-//# sourceMappingURL=C:/Users/eugene/Desktop/hachy/hachy-web/src/header.component.js.map
+//# sourceMappingURL=C:/hachy-web-master/src/header.component.js.map
 
 /***/ }),
 
-/***/ 1007:
+/***/ 1011:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_shared_module__ = __webpack_require__(257);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index__ = __webpack_require__(666);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__header_routing_module__ = __webpack_require__(1005);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__header_routing_module__ = __webpack_require__(1009);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HeaderModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -237,16 +237,16 @@ HeaderModule = __decorate([
     })
 ], HeaderModule);
 
-//# sourceMappingURL=C:/Users/eugene/Desktop/hachy/hachy-web/src/header.module.js.map
+//# sourceMappingURL=C:/hachy-web-master/src/header.module.js.map
 
 /***/ }),
 
-/***/ 1008:
+/***/ 1012:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__header_header_module__ = __webpack_require__(1007);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__header_header_module__ = __webpack_require__(1011);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LayoutModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -272,11 +272,11 @@ LayoutModule = __decorate([
     })
 ], LayoutModule);
 
-//# sourceMappingURL=C:/Users/eugene/Desktop/hachy/hachy-web/src/layout.module.js.map
+//# sourceMappingURL=C:/hachy-web-master/src/layout.module.js.map
 
 /***/ }),
 
-/***/ 1009:
+/***/ 1013:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -314,11 +314,11 @@ LoginRoutingModule = __decorate([
     })
 ], LoginRoutingModule);
 
-//# sourceMappingURL=C:/Users/eugene/Desktop/hachy/hachy-web/src/login-routing.module.js.map
+//# sourceMappingURL=C:/hachy-web-master/src/login-routing.module.js.map
 
 /***/ }),
 
-/***/ 1010:
+/***/ 1014:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -403,25 +403,25 @@ var LoginComponent = (function (_super) {
 LoginComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'app-login',
-        template: __webpack_require__(1059),
-        styles: [__webpack_require__(1038)],
+        template: __webpack_require__(1063),
+        styles: [__webpack_require__(1042)],
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_3__shared___["b" /* AnimationsService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__shared___["b" /* AnimationsService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2_angularfire2__["a" /* AngularFire */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_angularfire2__["a" /* AngularFire */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["b" /* Router */]) === "function" && _c || Object])
 ], LoginComponent);
 
 var _a, _b, _c;
-//# sourceMappingURL=C:/Users/eugene/Desktop/hachy/hachy-web/src/login.component.js.map
+//# sourceMappingURL=C:/hachy-web-master/src/login.component.js.map
 
 /***/ }),
 
-/***/ 1011:
+/***/ 1015:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_shared_module__ = __webpack_require__(257);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index__ = __webpack_require__(667);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__login_routing_module__ = __webpack_require__(1009);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__login_routing_module__ = __webpack_require__(1013);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return LoginModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -453,11 +453,11 @@ LoginModule = __decorate([
     })
 ], LoginModule);
 
-//# sourceMappingURL=C:/Users/eugene/Desktop/hachy/hachy-web/src/login.module.js.map
+//# sourceMappingURL=C:/hachy-web-master/src/login.module.js.map
 
 /***/ }),
 
-/***/ 1012:
+/***/ 1016:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -491,11 +491,11 @@ var Animations = (function () {
     return Animations;
 }());
 
-//# sourceMappingURL=C:/Users/eugene/Desktop/hachy/hachy-web/src/animations.js.map
+//# sourceMappingURL=C:/hachy-web-master/src/animations.js.map
 
 /***/ }),
 
-/***/ 1013:
+/***/ 1017:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -539,53 +539,53 @@ AuthenticationModule = AuthenticationModule_1 = __decorate([
 ], AuthenticationModule);
 
 var AuthenticationModule_1;
-//# sourceMappingURL=C:/Users/eugene/Desktop/hachy/hachy-web/src/authentication.module.js.map
+//# sourceMappingURL=C:/hachy-web-master/src/authentication.module.js.map
 
 /***/ }),
 
-/***/ 1014:
+/***/ 1018:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__authentication_guard__ = __webpack_require__(670);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__authentication_guard__["a"]; });
 
-//# sourceMappingURL=C:/Users/eugene/Desktop/hachy/hachy-web/src/index.js.map
+//# sourceMappingURL=C:/hachy-web-master/src/index.js.map
 
 /***/ }),
 
-/***/ 1015:
+/***/ 1019:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__todo_item_interface__ = __webpack_require__(1016);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__todo_item_interface__ = __webpack_require__(1020);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__todo_item_interface___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__todo_item_interface__);
 /* harmony namespace reexport (by used) */ if(__webpack_require__.o(__WEBPACK_IMPORTED_MODULE_0__todo_item_interface__, "TodosComponent")) __webpack_require__.d(__webpack_exports__, "TodosComponent", function() { return __WEBPACK_IMPORTED_MODULE_0__todo_item_interface__["TodosComponent"]; });
 /* harmony namespace reexport (by used) */ if(__webpack_require__.o(__WEBPACK_IMPORTED_MODULE_0__todo_item_interface__, "TodosResolver")) __webpack_require__.d(__webpack_exports__, "TodosResolver", function() { return __WEBPACK_IMPORTED_MODULE_0__todo_item_interface__["TodosResolver"]; });
 
-//# sourceMappingURL=C:/Users/eugene/Desktop/hachy/hachy-web/src/index.js.map
+//# sourceMappingURL=C:/hachy-web-master/src/index.js.map
 
 /***/ }),
 
-/***/ 1016:
+/***/ 1020:
 /***/ (function(module, exports) {
 
-//# sourceMappingURL=C:/Users/eugene/Desktop/hachy/hachy-web/src/todo-item.interface.js.map
+//# sourceMappingURL=C:/hachy-web-master/src/todo-item.interface.js.map
 
 /***/ }),
 
-/***/ 1017:
+/***/ 1021:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__todos_resolver__ = __webpack_require__(1018);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__todos_resolver__ = __webpack_require__(1022);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__todos_resolver__["a"]; });
 
-//# sourceMappingURL=C:/Users/eugene/Desktop/hachy/hachy-web/src/index.js.map
+//# sourceMappingURL=C:/hachy-web-master/src/index.js.map
 
 /***/ }),
 
-/***/ 1018:
+/***/ 1022:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -635,11 +635,11 @@ TodosResolver = __decorate([
 ], TodosResolver);
 
 var _a;
-//# sourceMappingURL=C:/Users/eugene/Desktop/hachy/hachy-web/src/todos.resolver.js.map
+//# sourceMappingURL=C:/hachy-web-master/src/todos.resolver.js.map
 
 /***/ }),
 
-/***/ 1019:
+/***/ 1023:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -679,11 +679,11 @@ EggStatus = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Pipe"])({ name: 'eggStatus' })
 ], EggStatus);
 
-//# sourceMappingURL=C:/Users/eugene/Desktop/hachy/hachy-web/src/status.pipeline.js.map
+//# sourceMappingURL=C:/hachy-web-master/src/status.pipeline.js.map
 
 /***/ }),
 
-/***/ 1020:
+/***/ 1024:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -729,11 +729,11 @@ TodosRoutingModule = __decorate([
     })
 ], TodosRoutingModule);
 
-//# sourceMappingURL=C:/Users/eugene/Desktop/hachy/hachy-web/src/todos-routing.module.js.map
+//# sourceMappingURL=C:/hachy-web-master/src/todos-routing.module.js.map
 
 /***/ }),
 
-/***/ 1021:
+/***/ 1025:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -808,26 +808,26 @@ var TodosComponent = (function (_super) {
 TodosComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'app-todos',
-        template: __webpack_require__(1060),
-        styles: [__webpack_require__(1039)],
+        template: __webpack_require__(1064),
+        styles: [__webpack_require__(1043)],
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__shared___["b" /* AnimationsService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__shared___["b" /* AnimationsService */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* ActivatedRoute */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_router__["a" /* ActivatedRoute */]) === "function" && _b || Object])
 ], TodosComponent);
 
 var _a, _b;
-//# sourceMappingURL=C:/Users/eugene/Desktop/hachy/hachy-web/src/todos.component.js.map
+//# sourceMappingURL=C:/hachy-web-master/src/todos.component.js.map
 
 /***/ }),
 
-/***/ 1022:
+/***/ 1026:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__shared_shared_module__ = __webpack_require__(257);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__index__ = __webpack_require__(672);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__todos_routing_module__ = __webpack_require__(1020);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__status_pipeline__ = __webpack_require__(1019);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__todos_routing_module__ = __webpack_require__(1024);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__status_pipeline__ = __webpack_require__(1023);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TodosModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -864,11 +864,11 @@ TodosModule = __decorate([
     })
 ], TodosModule);
 
-//# sourceMappingURL=C:/Users/eugene/Desktop/hachy/hachy-web/src/todos.module.js.map
+//# sourceMappingURL=C:/hachy-web-master/src/todos.module.js.map
 
 /***/ }),
 
-/***/ 1023:
+/***/ 1027:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -881,11 +881,11 @@ TodosModule = __decorate([
 var environment = {
     production: false
 };
-//# sourceMappingURL=C:/Users/eugene/Desktop/hachy/hachy-web/src/environment.js.map
+//# sourceMappingURL=C:/hachy-web-master/src/environment.js.map
 
 /***/ }),
 
-/***/ 1036:
+/***/ 1040:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(141)();
@@ -903,7 +903,7 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 1037:
+/***/ 1041:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(141)();
@@ -921,7 +921,7 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 1038:
+/***/ 1042:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(141)();
@@ -939,7 +939,7 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 1039:
+/***/ 1043:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(141)();
@@ -957,7 +957,7 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 1045:
+/***/ 1049:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -1013,200 +1013,208 @@ var map = {
 	"./dv.js": 706,
 	"./el": 707,
 	"./el.js": 707,
-	"./en-au": 708,
-	"./en-au.js": 708,
-	"./en-ca": 709,
-	"./en-ca.js": 709,
-	"./en-gb": 710,
-	"./en-gb.js": 710,
-	"./en-ie": 711,
-	"./en-ie.js": 711,
-	"./en-il": 712,
-	"./en-il.js": 712,
-	"./en-nz": 713,
-	"./en-nz.js": 713,
-	"./eo": 714,
-	"./eo.js": 714,
-	"./es": 717,
-	"./es-do": 715,
-	"./es-do.js": 715,
-	"./es-us": 716,
-	"./es-us.js": 716,
-	"./es.js": 717,
-	"./et": 718,
-	"./et.js": 718,
-	"./eu": 719,
-	"./eu.js": 719,
-	"./fa": 720,
-	"./fa.js": 720,
-	"./fi": 721,
-	"./fi.js": 721,
-	"./fo": 722,
-	"./fo.js": 722,
-	"./fr": 725,
-	"./fr-ca": 723,
-	"./fr-ca.js": 723,
-	"./fr-ch": 724,
-	"./fr-ch.js": 724,
-	"./fr.js": 725,
-	"./fy": 726,
-	"./fy.js": 726,
-	"./gd": 727,
-	"./gd.js": 727,
-	"./gl": 728,
-	"./gl.js": 728,
-	"./gom-latn": 729,
-	"./gom-latn.js": 729,
-	"./gu": 730,
-	"./gu.js": 730,
-	"./he": 731,
-	"./he.js": 731,
-	"./hi": 732,
-	"./hi.js": 732,
-	"./hr": 733,
-	"./hr.js": 733,
-	"./hu": 734,
-	"./hu.js": 734,
-	"./hy-am": 735,
-	"./hy-am.js": 735,
-	"./id": 736,
-	"./id.js": 736,
-	"./is": 737,
-	"./is.js": 737,
-	"./it": 738,
-	"./it.js": 738,
-	"./ja": 739,
-	"./ja.js": 739,
-	"./jv": 740,
-	"./jv.js": 740,
-	"./ka": 741,
-	"./ka.js": 741,
-	"./kk": 742,
-	"./kk.js": 742,
-	"./km": 743,
-	"./km.js": 743,
-	"./kn": 744,
-	"./kn.js": 744,
-	"./ko": 745,
-	"./ko.js": 745,
-	"./ky": 746,
-	"./ky.js": 746,
-	"./lb": 747,
-	"./lb.js": 747,
-	"./lo": 748,
-	"./lo.js": 748,
-	"./lt": 749,
-	"./lt.js": 749,
-	"./lv": 750,
-	"./lv.js": 750,
-	"./me": 751,
-	"./me.js": 751,
-	"./mi": 752,
-	"./mi.js": 752,
-	"./mk": 753,
-	"./mk.js": 753,
-	"./ml": 754,
-	"./ml.js": 754,
-	"./mn": 755,
-	"./mn.js": 755,
-	"./mr": 756,
-	"./mr.js": 756,
-	"./ms": 758,
-	"./ms-my": 757,
-	"./ms-my.js": 757,
-	"./ms.js": 758,
-	"./mt": 759,
-	"./mt.js": 759,
-	"./my": 760,
-	"./my.js": 760,
-	"./nb": 761,
-	"./nb.js": 761,
-	"./ne": 762,
-	"./ne.js": 762,
-	"./nl": 764,
-	"./nl-be": 763,
-	"./nl-be.js": 763,
-	"./nl.js": 764,
-	"./nn": 765,
-	"./nn.js": 765,
-	"./pa-in": 766,
-	"./pa-in.js": 766,
-	"./pl": 767,
-	"./pl.js": 767,
-	"./pt": 769,
-	"./pt-br": 768,
-	"./pt-br.js": 768,
-	"./pt.js": 769,
-	"./ro": 770,
-	"./ro.js": 770,
-	"./ru": 771,
-	"./ru.js": 771,
-	"./sd": 772,
-	"./sd.js": 772,
-	"./se": 773,
-	"./se.js": 773,
-	"./si": 774,
-	"./si.js": 774,
-	"./sk": 775,
-	"./sk.js": 775,
-	"./sl": 776,
-	"./sl.js": 776,
-	"./sq": 777,
-	"./sq.js": 777,
-	"./sr": 779,
-	"./sr-cyrl": 778,
-	"./sr-cyrl.js": 778,
-	"./sr.js": 779,
-	"./ss": 780,
-	"./ss.js": 780,
-	"./sv": 781,
-	"./sv.js": 781,
-	"./sw": 782,
-	"./sw.js": 782,
-	"./ta": 783,
-	"./ta.js": 783,
-	"./te": 784,
-	"./te.js": 784,
-	"./tet": 785,
-	"./tet.js": 785,
-	"./tg": 786,
-	"./tg.js": 786,
-	"./th": 787,
-	"./th.js": 787,
-	"./tl-ph": 788,
-	"./tl-ph.js": 788,
-	"./tlh": 789,
-	"./tlh.js": 789,
-	"./tr": 790,
-	"./tr.js": 790,
-	"./tzl": 791,
-	"./tzl.js": 791,
-	"./tzm": 793,
-	"./tzm-latn": 792,
-	"./tzm-latn.js": 792,
-	"./tzm.js": 793,
-	"./ug-cn": 794,
-	"./ug-cn.js": 794,
-	"./uk": 795,
-	"./uk.js": 795,
-	"./ur": 796,
-	"./ur.js": 796,
-	"./uz": 798,
-	"./uz-latn": 797,
-	"./uz-latn.js": 797,
-	"./uz.js": 798,
-	"./vi": 799,
-	"./vi.js": 799,
-	"./x-pseudo": 800,
-	"./x-pseudo.js": 800,
-	"./yo": 801,
-	"./yo.js": 801,
-	"./zh-cn": 802,
-	"./zh-cn.js": 802,
-	"./zh-hk": 803,
-	"./zh-hk.js": 803,
-	"./zh-tw": 804,
-	"./zh-tw.js": 804
+	"./en-SG": 708,
+	"./en-SG.js": 708,
+	"./en-au": 709,
+	"./en-au.js": 709,
+	"./en-ca": 710,
+	"./en-ca.js": 710,
+	"./en-gb": 711,
+	"./en-gb.js": 711,
+	"./en-ie": 712,
+	"./en-ie.js": 712,
+	"./en-il": 713,
+	"./en-il.js": 713,
+	"./en-nz": 714,
+	"./en-nz.js": 714,
+	"./eo": 715,
+	"./eo.js": 715,
+	"./es": 718,
+	"./es-do": 716,
+	"./es-do.js": 716,
+	"./es-us": 717,
+	"./es-us.js": 717,
+	"./es.js": 718,
+	"./et": 719,
+	"./et.js": 719,
+	"./eu": 720,
+	"./eu.js": 720,
+	"./fa": 721,
+	"./fa.js": 721,
+	"./fi": 722,
+	"./fi.js": 722,
+	"./fo": 723,
+	"./fo.js": 723,
+	"./fr": 726,
+	"./fr-ca": 724,
+	"./fr-ca.js": 724,
+	"./fr-ch": 725,
+	"./fr-ch.js": 725,
+	"./fr.js": 726,
+	"./fy": 727,
+	"./fy.js": 727,
+	"./ga": 728,
+	"./ga.js": 728,
+	"./gd": 729,
+	"./gd.js": 729,
+	"./gl": 730,
+	"./gl.js": 730,
+	"./gom-latn": 731,
+	"./gom-latn.js": 731,
+	"./gu": 732,
+	"./gu.js": 732,
+	"./he": 733,
+	"./he.js": 733,
+	"./hi": 734,
+	"./hi.js": 734,
+	"./hr": 735,
+	"./hr.js": 735,
+	"./hu": 736,
+	"./hu.js": 736,
+	"./hy-am": 737,
+	"./hy-am.js": 737,
+	"./id": 738,
+	"./id.js": 738,
+	"./is": 739,
+	"./is.js": 739,
+	"./it": 741,
+	"./it-ch": 740,
+	"./it-ch.js": 740,
+	"./it.js": 741,
+	"./ja": 742,
+	"./ja.js": 742,
+	"./jv": 743,
+	"./jv.js": 743,
+	"./ka": 744,
+	"./ka.js": 744,
+	"./kk": 745,
+	"./kk.js": 745,
+	"./km": 746,
+	"./km.js": 746,
+	"./kn": 747,
+	"./kn.js": 747,
+	"./ko": 748,
+	"./ko.js": 748,
+	"./ku": 749,
+	"./ku.js": 749,
+	"./ky": 750,
+	"./ky.js": 750,
+	"./lb": 751,
+	"./lb.js": 751,
+	"./lo": 752,
+	"./lo.js": 752,
+	"./lt": 753,
+	"./lt.js": 753,
+	"./lv": 754,
+	"./lv.js": 754,
+	"./me": 755,
+	"./me.js": 755,
+	"./mi": 756,
+	"./mi.js": 756,
+	"./mk": 757,
+	"./mk.js": 757,
+	"./ml": 758,
+	"./ml.js": 758,
+	"./mn": 759,
+	"./mn.js": 759,
+	"./mr": 760,
+	"./mr.js": 760,
+	"./ms": 762,
+	"./ms-my": 761,
+	"./ms-my.js": 761,
+	"./ms.js": 762,
+	"./mt": 763,
+	"./mt.js": 763,
+	"./my": 764,
+	"./my.js": 764,
+	"./nb": 765,
+	"./nb.js": 765,
+	"./ne": 766,
+	"./ne.js": 766,
+	"./nl": 768,
+	"./nl-be": 767,
+	"./nl-be.js": 767,
+	"./nl.js": 768,
+	"./nn": 769,
+	"./nn.js": 769,
+	"./pa-in": 770,
+	"./pa-in.js": 770,
+	"./pl": 771,
+	"./pl.js": 771,
+	"./pt": 773,
+	"./pt-br": 772,
+	"./pt-br.js": 772,
+	"./pt.js": 773,
+	"./ro": 774,
+	"./ro.js": 774,
+	"./ru": 775,
+	"./ru.js": 775,
+	"./sd": 776,
+	"./sd.js": 776,
+	"./se": 777,
+	"./se.js": 777,
+	"./si": 778,
+	"./si.js": 778,
+	"./sk": 779,
+	"./sk.js": 779,
+	"./sl": 780,
+	"./sl.js": 780,
+	"./sq": 781,
+	"./sq.js": 781,
+	"./sr": 783,
+	"./sr-cyrl": 782,
+	"./sr-cyrl.js": 782,
+	"./sr.js": 783,
+	"./ss": 784,
+	"./ss.js": 784,
+	"./sv": 785,
+	"./sv.js": 785,
+	"./sw": 786,
+	"./sw.js": 786,
+	"./ta": 787,
+	"./ta.js": 787,
+	"./te": 788,
+	"./te.js": 788,
+	"./tet": 789,
+	"./tet.js": 789,
+	"./tg": 790,
+	"./tg.js": 790,
+	"./th": 791,
+	"./th.js": 791,
+	"./tl-ph": 792,
+	"./tl-ph.js": 792,
+	"./tlh": 793,
+	"./tlh.js": 793,
+	"./tr": 794,
+	"./tr.js": 794,
+	"./tzl": 795,
+	"./tzl.js": 795,
+	"./tzm": 797,
+	"./tzm-latn": 796,
+	"./tzm-latn.js": 796,
+	"./tzm.js": 797,
+	"./ug-cn": 798,
+	"./ug-cn.js": 798,
+	"./uk": 799,
+	"./uk.js": 799,
+	"./ur": 800,
+	"./ur.js": 800,
+	"./uz": 802,
+	"./uz-latn": 801,
+	"./uz-latn.js": 801,
+	"./uz.js": 802,
+	"./vi": 803,
+	"./vi.js": 803,
+	"./x-pseudo": 804,
+	"./x-pseudo.js": 804,
+	"./yo": 805,
+	"./yo.js": 805,
+	"./zh-cn": 806,
+	"./zh-cn.js": 806,
+	"./zh-hk": 807,
+	"./zh-hk.js": 807,
+	"./zh-tw": 808,
+	"./zh-tw.js": 808
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -1222,43 +1230,43 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 1045;
+webpackContext.id = 1049;
 
 
 /***/ }),
 
-/***/ 1057:
+/***/ 1061:
 /***/ (function(module, exports) {
 
-module.exports = "\r\n<header>\r\n  <router-outlet name=\"header\"></router-outlet>\r\n</header>\r\n\r\n<article fxFlex\r\n  [class.animation-content-out]=\"activateAnimation\"\r\n  [class.animation-content-in]=\"!activateAnimation\"\r\n>\r\n  <router-outlet></router-outlet>\r\n</article>\r\n\r\n<footer>\r\n  <router-outlet name=\"footer\"></router-outlet>\r\n</footer>\r\n"
+module.exports = "\n<header>\n  <router-outlet name=\"header\"></router-outlet>\n</header>\n\n<article fxFlex\n  [class.animation-content-out]=\"activateAnimation\"\n  [class.animation-content-in]=\"!activateAnimation\"\n>\n  <router-outlet></router-outlet>\n</article>\n\n<footer>\n  <router-outlet name=\"footer\"></router-outlet>\n</footer>\n"
 
 /***/ }),
 
-/***/ 1058:
+/***/ 1062:
 /***/ (function(module, exports) {
 
-module.exports = "<md-toolbar color=\"primary\">\r\n\r\n  <!--\r\n  <button md-icon-button [md-menu-trigger-for]=\"menu\">\r\n    <md-icon>more_vert</md-icon>\r\n  </button>\r\n-->\r\n  <!--\r\n  <md-menu #menu=\"mdMenu\">\r\n    \r\n\r\n    <div *ngIf=\"(af.auth | async)?.uid\">\r\n      <button md-menu-item [routerLink]=\"['/eggs']\">Eggs</button>\r\n      <button md-menu-item (click)=\"logout()\">Logout</button>\r\n    </div>\r\n\r\n    <div *ngIf=\"!(af.auth | async)?.uid\">\r\n      <button md-menu-item [routerLink]=\"['/login']\">Login</button>\r\n    </div>\r\n  </md-menu>\r\n-->\r\n  <span>Hachy</span>\r\n\r\n  <div class=\"fill\"></div>\r\n\r\n  <div *ngIf=\"(af.auth | async)?.uid\">\r\n    <button\r\n      md-mini-fab\r\n      md-tooltip=\"Logout\"\r\n      tooltip-position=\"below\"\r\n      (click)=\"logout()\"\r\n    >\r\n      <md-icon>power_settings_new</md-icon>\r\n    </button>\r\n  </div>\r\n\r\n  <div *ngIf=\"!(af.auth | async)?.uid\">\r\n    <button\r\n      md-mini-fab\r\n      md-tooltip=\"Login with Facebook\"\r\n      tooltip-position=\"below\"\r\n      [routerLink]=\"['/login']\"\r\n    >\r\n      <md-icon>person</md-icon>\r\n    </button>\r\n  </div>\r\n</md-toolbar>\r\n"
+module.exports = "<md-toolbar color=\"primary\">\n\n  <!--\n  <button md-icon-button [md-menu-trigger-for]=\"menu\">\n    <md-icon>more_vert</md-icon>\n  </button>\n-->\n  <!--\n  <md-menu #menu=\"mdMenu\">\n    \n\n    <div *ngIf=\"(af.auth | async)?.uid\">\n      <button md-menu-item [routerLink]=\"['/eggs']\">Eggs</button>\n      <button md-menu-item (click)=\"logout()\">Logout</button>\n    </div>\n\n    <div *ngIf=\"!(af.auth | async)?.uid\">\n      <button md-menu-item [routerLink]=\"['/login']\">Login</button>\n    </div>\n  </md-menu>\n-->\n  <span>Hachy</span>\n\n  <div class=\"fill\"></div>\n\n  <div *ngIf=\"(af.auth | async)?.uid\">\n    <button\n      md-mini-fab\n      md-tooltip=\"Logout\"\n      tooltip-position=\"below\"\n      (click)=\"logout()\"\n    >\n      <md-icon>power_settings_new</md-icon>\n    </button>\n  </div>\n\n  <div *ngIf=\"!(af.auth | async)?.uid\">\n    <button\n      md-mini-fab\n      md-tooltip=\"Login with Facebook\"\n      tooltip-position=\"below\"\n      [routerLink]=\"['/login']\"\n    >\n      <md-icon>person</md-icon>\n    </button>\n  </div>\n</md-toolbar>\n"
 
 /***/ }),
 
-/***/ 1059:
+/***/ 1063:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"container\" fxLayout=\"column\" fxLayoutAlign=\"start\" fxFill>\n\n\n\n  <div class=\"login\">\n    <div class=\"text\">\n      <h1>Hachy</h1>\n      <p>Candle Eggs with Machine Learning</p>\n    </div>\n\n    <div class=\"buttons\">\n      <a target=\"_blank\" href=\"https://play.google.com/store/apps/details?id=ms.imagine.foodiemate\">\n        <button md-raised-button color=\"primary\">Download the App</button>\n      </a>\n      <button md-raised-button color=\"\" style=\"color:#3b5998\" (click)=\"login('Facebook')\">Login with Facebook</button>\n    </div>\n    <br>\n    <div>\n      <table>\n        <tr>\n          <th>Test</th>\n          <th>Facebook Account</th>\n        </tr>\n        <tr>\n          <td>Email</td>\n          <td>scqerjhwwi_1523431167@tfbnw.net</td>\n        </tr>\n        <tr>\n          <td>Passowrd</td>\n          <td>hachEgg</td>\n        </tr>\n      </table>\n    </div>\n  </div>\n  <!--<img style=\"margin:0 auto; height: 388px;\" src=\"/assets/background1.png\"/>-->\n\n</div>\n"
 
 /***/ }),
 
-/***/ 1060:
+/***/ 1064:
 /***/ (function(module, exports) {
 
 module.exports = "<div>\n  <!--\n  <h2>Add new todo</h2>\n\n  <form #todoForm=\"ngForm\" (submit)=\"addNewTodo()\">\n    <div fxLayout=\"row\" fxFill>\n      <md-input-container fxFlex>\n        <input name=\"todo\" class=\"fill\" placeholder=\"New todo item\" required\n          mdInput\n          [(ngModel)]=\"todo\"\n          #todoControl\n        />\n      </md-input-container>\n\n      <button type=\"submit\" md-icon-button color=\"primary\"\n        [disabled]=\"todoForm.invalid\"\n      >\n        <md-icon>send</md-icon>\n      </button>\n    </div>\n  </form>\n\n-->\n\n  <div class=\"cards\">\n    <!-- To be added adding new Item online\n      <div class=\"card\" >\n      <div>\n        <img src=\"assets/upload.png\" alt=\"Avatar\" (click)=\"addEgg()\">\n        <div class=\"container\">\n          <h3>\n            <b>Upload Image Here</b>\n          </h3>\n        </div>\n      </div>\n    </div>\n    -->\n\n    <div class=\"card\" *ngFor=\"let item of todos | async\" [class.active]=\"item.active\" [class.done]=\"item.done\"\n      (mouseenter)=\"item.active = true\" (mouseleave)=\"item.active = false\">\n      <div>\n        <img [src]=\"getImgURL(item.imgURL)\" alt=\"Avatar\">\n        <div class=\"container\">\n          <h3>\n            <b>{{item.status | eggStatus}}</b>\n          </h3>\n          <p>\n            {{item.eggTag}} @: {{((item.timestamp / 1000) | amFromUnix) | amDateFormat: 'DD.MM.YY HH:mm'}}\n          </p>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
-/***/ 1105:
+/***/ 1109:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(830);
+module.exports = __webpack_require__(834);
 
 
 /***/ }),
@@ -1273,15 +1281,15 @@ module.exports = __webpack_require__(830);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__(65);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_http__ = __webpack_require__(310);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_material__ = __webpack_require__(956);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__angular_flex_layout__ = __webpack_require__(920);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_material__ = __webpack_require__(960);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__angular_flex_layout__ = __webpack_require__(924);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_angularfire2__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_angular2_moment__ = __webpack_require__(1024);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_angular2_moment__ = __webpack_require__(1028);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_angular2_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_angular2_moment__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_ng2_webstorage__ = __webpack_require__(1046);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_hammerjs__ = __webpack_require__(1044);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_ng2_webstorage__ = __webpack_require__(1050);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_hammerjs__ = __webpack_require__(1048);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_hammerjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11_hammerjs__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__authentication_authentication_module__ = __webpack_require__(1013);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__authentication_authentication_module__ = __webpack_require__(1017);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__directives___ = __webpack_require__(671);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__config_config__ = __webpack_require__(665);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__animations_animations_service__ = __webpack_require__(668);
@@ -1349,7 +1357,7 @@ SharedModule = __decorate([
     })
 ], SharedModule);
 
-//# sourceMappingURL=C:/Users/eugene/Desktop/hachy/hachy-web/src/shared.module.js.map
+//# sourceMappingURL=C:/hachy-web-master/src/shared.module.js.map
 
 /***/ }),
 
@@ -1422,7 +1430,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 // NgClass on SVG elements
 // Needed for: IE10, IE11
 // import 'classlist.js';
-//# sourceMappingURL=C:/Users/eugene/Desktop/hachy/hachy-web/src/polyfills.js.map
+//# sourceMappingURL=C:/hachy-web-master/src/polyfills.js.map
 
 /***/ }),
 
@@ -1430,7 +1438,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__authentication___ = __webpack_require__(1014);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__authentication___ = __webpack_require__(1018);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_0__authentication___["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__directives___ = __webpack_require__(671);
 /* unused harmony namespace reexport */
@@ -1440,7 +1448,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-//# sourceMappingURL=C:/Users/eugene/Desktop/hachy/hachy-web/src/index.js.map
+//# sourceMappingURL=C:/hachy-web-master/src/index.js.map
 
 /***/ }),
 
@@ -1479,14 +1487,14 @@ var AppComponent = (function () {
 AppComponent = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'app-root',
-        template: __webpack_require__(1057),
-        styles: [__webpack_require__(1036)],
+        template: __webpack_require__(1061),
+        styles: [__webpack_require__(1040)],
     }),
     __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__shared_animations_index__["b" /* AnimationsService */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__shared_animations_index__["b" /* AnimationsService */]) === "function" && _a || Object])
 ], AppComponent);
 
 var _a;
-//# sourceMappingURL=C:/Users/eugene/Desktop/hachy/hachy-web/src/app.component.js.map
+//# sourceMappingURL=C:/hachy-web-master/src/app.component.js.map
 
 /***/ }),
 
@@ -1500,12 +1508,12 @@ var _a;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Config; });
 
 var FIREBASE_CONFIG = {
-    apiKey: 'AIzaSyDklze7ifoRjb8JVkICWNk4hhf6u5Z9tMQ',
-    authDomain: 'foodiemate-41193.firebaseapp.com',
-    databaseURL: 'https://foodiemate-41193.firebaseio.com',
-    projectId: 'foodiemate-41193',
-    storageBucket: 'foodiemate-41193.appspot.com',
-    messagingSenderId: '842812802622'
+    apiKey: "AIzaSyDgUQ1GWMsZcXXEDgwAGn7ylpR3g0R6CQA",
+    authDomain: "hachy-e460f.firebaseapp.com",
+    databaseURL: "https://hachy-e460f.firebaseio.com",
+    projectId: "hachy-e460f",
+    storageBucket: "hachy-e460f.appspot.com",
+    messagingSenderId: "249523218877"
 };
 var FIREBASE_AUTH_CONFIG = {
     provider: __WEBPACK_IMPORTED_MODULE_0_angularfire2__["b" /* AuthProviders */].Google,
@@ -1519,7 +1527,7 @@ var Config = (function () {
 
 Config.FIREBASE_CONFIG = FIREBASE_CONFIG;
 Config.FIREBASE_AUTH_CONFIG = FIREBASE_AUTH_CONFIG;
-//# sourceMappingURL=C:/Users/eugene/Desktop/hachy/hachy-web/src/config.js.map
+//# sourceMappingURL=C:/hachy-web-master/src/config.js.map
 
 /***/ }),
 
@@ -1527,10 +1535,10 @@ Config.FIREBASE_AUTH_CONFIG = FIREBASE_AUTH_CONFIG;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__header_component__ = __webpack_require__(1006);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__header_component__ = __webpack_require__(1010);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__header_component__["a"]; });
 
-//# sourceMappingURL=C:/Users/eugene/Desktop/hachy/hachy-web/src/index.js.map
+//# sourceMappingURL=C:/hachy-web-master/src/index.js.map
 
 /***/ }),
 
@@ -1538,10 +1546,10 @@ Config.FIREBASE_AUTH_CONFIG = FIREBASE_AUTH_CONFIG;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__login_component__ = __webpack_require__(1010);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__login_component__ = __webpack_require__(1014);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__login_component__["a"]; });
 
-//# sourceMappingURL=C:/Users/eugene/Desktop/hachy/hachy-web/src/index.js.map
+//# sourceMappingURL=C:/hachy-web-master/src/index.js.map
 
 /***/ }),
 
@@ -1586,7 +1594,7 @@ AnimationsService = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])()
 ], AnimationsService);
 
-//# sourceMappingURL=C:/Users/eugene/Desktop/hachy/hachy-web/src/animations.service.js.map
+//# sourceMappingURL=C:/hachy-web-master/src/animations.service.js.map
 
 /***/ }),
 
@@ -1596,11 +1604,11 @@ AnimationsService = __decorate([
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__animations_service__ = __webpack_require__(668);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_0__animations_service__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__animations__ = __webpack_require__(1012);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__animations__ = __webpack_require__(1016);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__animations__["a"]; });
 
 
-//# sourceMappingURL=C:/Users/eugene/Desktop/hachy/hachy-web/src/index.js.map
+//# sourceMappingURL=C:/hachy-web-master/src/index.js.map
 
 /***/ }),
 
@@ -1611,11 +1619,11 @@ AnimationsService = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_router__ = __webpack_require__(73);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angularfire2__ = __webpack_require__(108);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_do__ = __webpack_require__(813);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_do__ = __webpack_require__(817);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_do___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_add_operator_do__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__ = __webpack_require__(69);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_rxjs_add_operator_map__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_take__ = __webpack_require__(1073);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_take__ = __webpack_require__(1077);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_take___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_rxjs_add_operator_take__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AuthenticationGuard; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -1676,7 +1684,7 @@ AuthenticationGuard = __decorate([
 ], AuthenticationGuard);
 
 var _a, _b;
-//# sourceMappingURL=C:/Users/eugene/Desktop/hachy/hachy-web/src/authentication.guard.js.map
+//# sourceMappingURL=C:/hachy-web-master/src/authentication.guard.js.map
 
 /***/ }),
 
@@ -1686,7 +1694,7 @@ var _a, _b;
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Directives; });
 var Directives = [];
-//# sourceMappingURL=C:/Users/eugene/Desktop/hachy/hachy-web/src/index.js.map
+//# sourceMappingURL=C:/hachy-web-master/src/index.js.map
 
 /***/ }),
 
@@ -1694,21 +1702,21 @@ var Directives = [];
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__interfaces__ = __webpack_require__(1015);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__interfaces__ = __webpack_require__(1019);
 /* harmony namespace reexport (by used) */ if(__webpack_require__.o(__WEBPACK_IMPORTED_MODULE_0__interfaces__, "TodosComponent")) __webpack_require__.d(__webpack_exports__, "TodosComponent", function() { return __WEBPACK_IMPORTED_MODULE_0__interfaces__["TodosComponent"]; });
 /* harmony namespace reexport (by used) */ if(__webpack_require__.o(__WEBPACK_IMPORTED_MODULE_0__interfaces__, "TodosResolver")) __webpack_require__.d(__webpack_exports__, "TodosResolver", function() { return __WEBPACK_IMPORTED_MODULE_0__interfaces__["TodosResolver"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__resolves__ = __webpack_require__(1017);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__resolves__ = __webpack_require__(1021);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "TodosResolver", function() { return __WEBPACK_IMPORTED_MODULE_1__resolves__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__todos_component__ = __webpack_require__(1021);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__todos_component__ = __webpack_require__(1025);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "TodosComponent", function() { return __WEBPACK_IMPORTED_MODULE_2__todos_component__["a"]; });
 
 
 
-//# sourceMappingURL=C:/Users/eugene/Desktop/hachy/hachy-web/src/index.js.map
+//# sourceMappingURL=C:/hachy-web-master/src/index.js.map
 
 /***/ }),
 
-/***/ 829:
+/***/ 833:
 /***/ (function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -1717,21 +1725,21 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 829;
+webpackEmptyContext.id = 833;
 
 
 /***/ }),
 
-/***/ 830:
+/***/ 834:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__polyfills_ts__ = __webpack_require__(265);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(972);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(976);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(1023);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app___ = __webpack_require__(1004);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(1027);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app___ = __webpack_require__(1008);
 
 
 
@@ -1741,9 +1749,9 @@ if (__WEBPACK_IMPORTED_MODULE_3__environments_environment__["a" /* environment *
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_2__angular_core__["enableProdMode"])();
 }
 __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_4__app___["a" /* AppModule */]);
-//# sourceMappingURL=C:/Users/eugene/Desktop/hachy/hachy-web/src/main.js.map
+//# sourceMappingURL=C:/hachy-web-master/src/main.js.map
 
 /***/ })
 
-},[1105]);
+},[1109]);
 //# sourceMappingURL=main.bundle.js.map

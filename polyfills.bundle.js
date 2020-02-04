@@ -2596,7 +2596,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 // NgClass on SVG elements
 // Needed for: IE10, IE11
 // import 'classlist.js';
-//# sourceMappingURL=C:/Users/eugene/Desktop/hachy/hachy-web/src/polyfills.js.map
+//# sourceMappingURL=C:/hachy-web-master/src/polyfills.js.map
 
 /***/ }),
 /* 266 */,
@@ -8310,12 +8310,16 @@ if (_global['navigator'] && _global['navigator'].geolocation) {
 /* 1103 */,
 /* 1104 */,
 /* 1105 */,
-/* 1106 */
+/* 1106 */,
+/* 1107 */,
+/* 1108 */,
+/* 1109 */,
+/* 1110 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(265);
 
 
 /***/ })
-],[1106]);
+],[1110]);
 //# sourceMappingURL=polyfills.bundle.js.map
